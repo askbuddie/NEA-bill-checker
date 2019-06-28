@@ -16,17 +16,22 @@ file = 'address.txt'
 
 with open(file) as a:
 	x = a.read()
-	if add in x:
-		address = ''.join(re.findall(add + " =.*", x)).replace(add+" = ", '')
-	else:
-		print "Location not found!"
+	addres = ''
+	address1 = add
+	address2 = add + " DC"
+
+	if address1 or address2 in x:
+		if address2 in x:
+			address = ''.join(re.findall(address2 + ".* =.*", x)).replace(address2 + " = ", '')
+		else:
+			address = ''.join(re.findall(address1 + " =.*", x)).replace(address1 + " = ", '')
 
 parameters = {'NEA_location':address, 'sc_no': sc, 'consumer_id': custid, 'Fromdatepicker': '2/28/2017', 'Todatepicker': date}
 # # print parameters
 
 r = requests.post('https://www.neabilling.com/viewonline/viewonlineresult/', params=parameters)
 # # print(r.url)
-if 'No Records Found.' in r.text:
+if 'No Records' in r.text:
 	print "Some of your information is incorrect. Records not found."
 else:
 	a = "".join(re.findall("Customer .*", r.text))
