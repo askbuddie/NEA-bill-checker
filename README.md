@@ -34,18 +34,22 @@ pip install requests
 
 ## Usage
 
-1. Run the NEA Bill Checker:
+### Running the NEA Bill Checker
+
+After the installation is complete, you should now be able to run the NEA Bill Checker:
 
 ```
 python nea.py
 ```
 
-    It will display the current date and ask you to enter the **Sc. no.** from your bill.
+### Using the NEA Bill Checker
 
-2. Enter your **Sc. no.** and press enter and then it will ask you to enter your **Customer ID**.
+When you run the program, it will display the current date and ask you to enter the **Sc. no.** from your bill.
 
-3. Enter your **Customer ID** and then press enter.
+1. Enter your **Sc. no.** and press enter and then it will ask you to enter your **Customer ID**.
 
-4. Now, you should enter your **NEA Location** as in your Bill (for example; **BHARATPUR DC**) and then press enter.
+2. Enter your **Customer ID** and then press enter.
+
+3. Now, you should enter your **NEA Location** as in your Bill (for example; **BHARATPUR DC**) and then press enter.
 
 Finally, you would be able to get the results on whether the Amount has been paid or not.
