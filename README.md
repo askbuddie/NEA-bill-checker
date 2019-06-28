@@ -8,25 +8,25 @@ Required:
 
 ## Installation
 
-First, install pip:
+1. First, install pip:
 
 ```
 sudo apt install python-pip
 ```
 
-Then, clone the repository with `git clone` and you are ready to go.
+2. Then, clone the repository with `git clone`.
 
 ```
 git clone https://github.com/askbuddie/NEA-bill-checker.git
 ```
 
-After cloning the repository, change the directory to ./NEA-bill-checker:
+3. After cloning the repository, change the directory to ./NEA-bill-checker:
 
 ```
 cd NEA-bill-checker
 ```
 
-Now, you should install the requirements.
+4. Now, you should install the requirements.
 
 ```
 pip install requests
@@ -40,7 +40,7 @@ pip install requests
 python nea.py
 ```
 
-It will display the current date and ask you to enter the **Sc. no.** from your bill.
+    It will display the current date and ask you to enter the **Sc. no.** from your bill.
 
 2. Enter your **Sc. no.** and press enter and then it will ask you to enter your **Customer ID**.
 
