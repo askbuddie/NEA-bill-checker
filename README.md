@@ -50,6 +50,6 @@ When you run the program, it will display the current date and ask you to enter 
 
 2. Enter your **Customer ID** and then press enter.
 
-3. Now, you should enter your **NEA Location** as in your Bill (for example; **BHARATPUR DC**) and then press enter.
+3. Now, you should enter your **NEA Location** as in your Bill (for example; **BHARATPUR**) and then press enter.
 
 Finally, you would be able to get the results on whether the Amount has been paid or not.
