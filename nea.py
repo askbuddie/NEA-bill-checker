@@ -6,7 +6,7 @@ import datetime
 x = datetime.datetime.now()
 
 d = x.strftime("%b-%y").upper()
-print d
+# print d
 date = x.strftime("%m/%d/%Y")
 print "Today: " + date
 sc = raw_input("Enter Sc. no. from your bill: ")
