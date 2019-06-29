@@ -49,7 +49,7 @@ else:
 
 		am = ''.join(re.findall( d + '([\s\S]*?)</tr>', r.text, re.MULTILINE))
 		b = re.findall("<td>.*</td>", am)
-		amount = b[1].replace("<td>", "").replace("</td>", "")
+		amount = b[4].replace("<td>", "").replace("</td>", "")
 
 		if 'UN-PAID' in r.text:
 			print "Rs. " + amount + " hasnot been paid!"
