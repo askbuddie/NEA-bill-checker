@@ -5,6 +5,8 @@ import datetime
 
 x = datetime.datetime.now()
 
+d = x.strftime("%b-%y").upper()
+print d
 date = x.strftime("%m/%d/%Y")
 print "Today: " + date
 sc = raw_input("Enter Sc. no. from your bill: ")
@@ -45,10 +47,14 @@ else:
 		name = a[45:][::-1][6:][::-1]
 		print name
 
+		am = ''.join(re.findall( d + '([\s\S]*?)</tr>', r.text, re.MULTILINE))
+		b = re.findall("<td>.*</td>", am)
+		amount = b[1].replace("<td>", "").replace("</td>", "")
+
 		if 'UN-PAID' in r.text:
-			print "Amount not paid!"
+			print "Rs. " + amount + " hasnot been paid!"
 		elif 'ConsumerId must be' in r.text:
 			print "Please eter your numeric Customer ID."
 		else:
-			print "Amount has been paid!"
+			print "Rs. " + amount + " has been paid!"
 	# print r.text
