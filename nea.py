@@ -12,7 +12,7 @@ custid = raw_input("Enter Customer id: ")
 
 add = raw_input("Enter your NEA Location as in your Bill: ").upper()
 
-file = 'db/a.txt'
+file = 'address.txt'
 
 with open(file) as a:
 	x = a.read()
