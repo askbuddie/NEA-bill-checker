@@ -55,6 +55,8 @@ else:
 			print "Rs. " + amount + " hasnot been paid!"
 		elif 'ConsumerId must be' in r.text:
 			print "Please eter your numeric Customer ID."
+		elif 'Advance' in r.text:
+			print "Rs. " + amount.replace('-', '') + " has been paid in Advance!"
 		else:
 			print "Rs. " + amount + " has been paid!"
 	# print r.text
