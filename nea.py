@@ -101,9 +101,9 @@ else:
 			print ' Hello ' + name + ", You have \n to pay RS  " + amount 
 		elif 'ConsumerId must be' in r.text:
 			print " Please enter your numeric Customer ID."
-		elif 'ADVANCE' in r.text:
-			print " Hello " + name + ", You have \n paid Rs. " + amount.replace('-', '') + "  in Advance!"
+		# elif 'ADVANCE' in r.text:
+		# 	print " Hello " + name + ", You have \n paid Rs. " + amount.replace('-', '') + "  in Advance!"
 		else:
-			print " Hello" + name +", Rs. " + amount + " \n has been paid!"
+			print " Hello " + name +", Rs. " + amount + " \n has been paid!"
 
 exit2()
