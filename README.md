@@ -70,13 +70,7 @@ Finally, you would be able to get the results on whether the Amount has been pai
 
  [Join our community on Facebook](https://www.facebook.com/groups/askbuddie)
 
-----------
 
-## :octocat: Author
-
-- **Ask Buddie**
-
------------
 
 ## :octocat: Primary Contributor
 
