@@ -1,4 +1,5 @@
 # NEA-bill
+-Easy way to check Electricity Bill
 -----------
 ## Requirements
 
@@ -31,7 +32,7 @@ cd NEA-bill-checker
 4. Now, you should install the requirements.
 
 ```
-pip install requests
+pip install -r requirements.txt
 ```
 
 ----------
@@ -74,8 +75,17 @@ Finally, you would be able to get the results on whether the Amount has been pai
 
 ## :octocat: Primary Contributor
 
-- **[Pradeep Bhattarai]**
-- https://github.com/pr0d33p
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/pr0d33p">
+      <img src="https://avatars0.githubusercontent.com/u/29733866?s=460&v=4" width="100px;" alt="Pradeep Bhattarai"/>
+      <br />
+      <sub><b>Pradeep Bhattarai</b></sub></a>
+      <br />
+    </td>
+  </tr>
+ </table>
 
 ----------
 
