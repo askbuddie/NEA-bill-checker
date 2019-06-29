@@ -1,5 +1,7 @@
 # NEA-bill
--Easy way to check Electricity Bill
+
+- Easy way to check Electricity Bill
+
 -----------
 ## Requirements
 
