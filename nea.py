@@ -78,7 +78,7 @@ except Exception:
 	exit2()
 	
 else:
-	parameters = {'NEA_location':address, 'sc_no': sc, 'consumer_id': custid, 'Fromdatepicker': '2/28/2017', 'Todatepicker': date}
+	parameters = {'NEA_location':address, 'sc_no': sc, 'consumer_id': custid, 'fromdate': '2/28/2017', 'todate': date}
 	# # print parameters
 	try:
 		r = requests.post('https://www.neabilling.com/viewonline/viewonlineresult/', params=parameters)
