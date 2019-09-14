@@ -34,7 +34,7 @@ cd NEA-bill-checker
 4. Now, you should install the requirements.
 
 ```
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 ```
 
 ----------
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 After the installation is complete, you should now be able to run the NEA Bill Checker:
 
 ```
-python nea.py
+python NEA.py
 ```
 
 ### Using the NEA Bill Checker
