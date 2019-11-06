@@ -31,10 +31,17 @@ git clone https://github.com/askbuddie/NEA-bill-checker.git
 cd NEA-bill-checker
 ```
 
-4. Now, you should install the requirements.
+4. Create a python virtual environment for isolating your package management.
 
 ```
-sudo pip install -r requirements.txt
+python3 -m venv venv
+. ./venv/bin/activate
+```
+
+5. Now, you should install the requirements.
+
+```
+pip install -r requirements.txt
 ```
 
 ----------
