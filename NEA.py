@@ -49,7 +49,7 @@ ad = getAreaCode(add)
 try:
     int(ad)
 except Exception:
-    print("NEA Location not found!")
+    print("[-] NEA Location not found!")
     exit(0)
 
 def exit2():
