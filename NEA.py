@@ -54,7 +54,7 @@ except Exception:
 
 def exit2():
 
-    print('\n [+] Our Site: www.askbuddie.com\n [+] Join Us: www.fb.com/groups/askbuddie\n [+] Our FB page: www.fbcom/askbuddie\n [+] ABOS: https://github.com/askbuddie')
+    print('\n [+] Our Site: www.askbuddie.com\n [+] Join Us: www.fb.com/groups/askbuddie\n [+] Our FB page: www.fb.com/askbuddie\n [+] ABOS: https://github.com/askbuddie')
     print('\nThanks for using NEA Bill Checker...\n\n')
     exit()
 
