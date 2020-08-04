@@ -76,7 +76,7 @@ except Exception:
 
 if 'No Records' in r.text:
     print(
-        "\n\033[91m [-] Record not found. You entered\n wrong information.")
+        "\n[-] Record not found. You entered\n wrong information.")
 else:
     soup = BeautifulSoup(r.text, "html.parser")
     th1 = ""
