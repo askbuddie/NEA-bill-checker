@@ -71,7 +71,7 @@ try:
     r = requests.post(
         'https://www.neabilling.com/viewonline/viewonlineresult/', params=parameters)
 except Exception:
-    print("\n\033[91m [-] Something went Wrong, Try again later.")
+    print("\n[-] Something went Wrong, Try again later.")
     exit2()
 
 if 'No Records' in r.text:
