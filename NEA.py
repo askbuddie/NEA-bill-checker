@@ -50,7 +50,7 @@ try:
     int(ad)
 except Exception:
     print("[-] NEA Location not found!")
-    exit(0)
+    exit2()
 
 def exit2():
 
