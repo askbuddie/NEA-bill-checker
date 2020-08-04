@@ -61,7 +61,7 @@ def exit2():
 try:
     int(custid)
 except Exception:
-    print("\n\033[91m [-] Customer id must be interger.")
+    print("\n[-] Customer id must be interger.")
     exit2()
 
 
