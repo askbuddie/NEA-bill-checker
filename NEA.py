@@ -66,7 +66,7 @@ except Exception:
 
 
 parameters = {'NEA_location': ad, 'sc_no': sc,
-              'consumer_id': custid, 'fromdate': '2/28/2017', 'todate': date}
+              'consumer_id': custid, 'Fromdatepicker': '2/28/2017', 'Todatepicker': date}
 try:
     r = requests.post(
         'https://www.neabilling.com/viewonline/viewonlineresult/', params=parameters)
